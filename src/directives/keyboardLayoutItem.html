@@ -1,0 +1,18 @@
+<li class="list-group-item" ng-repeat="kbl in data">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="left" ><img src="images/{{kbl.icon}}" class="icon"/></div>
+            <h4>{{kbl.title}}</h4><h5>{{kbl.titleEn}}</h5>
+            <div class="label label-success os-label label-fix">{{kbl.OS}}</div>
+        </div>
+        <div class="panel-body">
+            <p>{{kbl.description}}</p>
+            <div class="text-right">تۈزگۈچى:{{kbl.author}}</div>
+            
+        </div>
+        <div class="panel-footer">
+            
+            <div class="text-right"><a href="files/{{kbl.fileUrl}}" class="btn btn-primary">چۈشۈرۈش</a></div>
+        </div>
+    </div>
+</li>

@@ -1,0 +1,25 @@
+.icon{
+    width: 64px;
+    height: 64px;
+    float: right;
+    padding-left:5px;
+}
+.os-label{
+    float: left;
+}
+
+.label-fix{
+    padding: .5em  .5em .5em .5em !inportant;
+    font-family:sans-serif; !important;
+}
+
+p{
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 16px;
+}
+.about-header {
+ border: 0 solid #efefef;
+ border-bottom-width:1px;
+ padding-bottom:10px;
+}
